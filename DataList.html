@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Datalist Example</title>
+</head>
+<body>
+
+    <h2>Select Your Course</h2>
+
+    <form>
+
+        <label for="course">Course Name:</label><br>
+
+        <input type="text"
+               id="course"
+               name="course"
+               list="courses"
+               placeholder="Choose or type a course">
+
+        <datalist id="courses">
+            <option value="Java">
+            <option value="Python">
+            <option value="HTML">
+            <option value="CSS">
+            <option value="JavaScript">
+            <option value="React">
+            <option value="C Language">
+            <option value="C++">
+        </datalist>
+
+        <br><br>
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="Clear">
+
+    </form>
+
+</body>
+</html>
